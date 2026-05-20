@@ -1,0 +1,9 @@
+﻿[
+  {
+    "Name":        "Proyecto TBD1",
+    "Host":        "localhost",
+    "Port":         1521,
+    "ServiceName": "XE",
+    "Username":    "System"
+  }
+]

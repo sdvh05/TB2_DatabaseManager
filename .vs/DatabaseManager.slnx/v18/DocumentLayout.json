@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\forms\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\forms\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|c:\\users\\eztib\\source\\repos\\databasemanager\\src\\databasemanager\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\07_tablespaces_users.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\07_tablespaces_users.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\04_triggers.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\04_triggers.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\03_procedures_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\03_procedures_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\models\\oraclemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\models\\oraclemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\data\\datamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\data\\datamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\data\\oracleconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\data\\oracleconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\databasemanager\\data\\objectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F100E49D-5A9A-44FC-A30A-ADAD75BAFB9D}|src\\DatabaseManager\\DatabaseManager.csproj|solutionrelative:src\\databasemanager\\data\\objectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\05_indexes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\05_indexes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\06_sequences.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\06_sequences.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\08_ddl_generator.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\08_ddl_generator.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\02_views.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\02_views.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\01_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|SQL{E1D8A8F4-1A43-CA6F-969C-EEA7A4C90B8A}|solutionrelative:SQL\\01_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "04_triggers.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\04_triggers.sql",
+              "RelativeDocumentMoniker": "SQL\\04_triggers.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\04_triggers.sql",
+              "RelativeToolTip": "SQL\\04_triggers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:29:27.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "07_tablespaces_users.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\07_tablespaces_users.sql",
+              "RelativeDocumentMoniker": "SQL\\07_tablespaces_users.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\07_tablespaces_users.sql",
+              "RelativeToolTip": "SQL\\07_tablespaces_users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:30:09.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\FormLogin.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Forms\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\FormLogin.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Forms\\FormLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T05:36:56.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "05_indexes.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\05_indexes.sql",
+              "RelativeDocumentMoniker": "SQL\\05_indexes.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\05_indexes.sql",
+              "RelativeToolTip": "SQL\\05_indexes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:29:34.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\FormMain.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Forms\\FormMain.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\FormMain.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Forms\\FormMain.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T05:37:03.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "03_procedures_functions.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\03_procedures_functions.sql",
+              "RelativeDocumentMoniker": "SQL\\03_procedures_functions.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\03_procedures_functions.sql",
+              "RelativeToolTip": "SQL\\03_procedures_functions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:28:58.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "06_sequences.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\06_sequences.sql",
+              "RelativeDocumentMoniker": "SQL\\06_sequences.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\06_sequences.sql",
+              "RelativeToolTip": "SQL\\06_sequences.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:30:03.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "08_ddl_generator.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\08_ddl_generator.sql",
+              "RelativeDocumentMoniker": "SQL\\08_ddl_generator.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\08_ddl_generator.sql",
+              "RelativeToolTip": "SQL\\08_ddl_generator.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:30:20.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "02_views.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\02_views.sql",
+              "RelativeDocumentMoniker": "SQL\\02_views.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\02_views.sql",
+              "RelativeToolTip": "SQL\\02_views.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:26:29.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "01_tables.sql",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\01_tables.sql",
+              "RelativeDocumentMoniker": "SQL\\01_tables.sql",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\SQL\\01_tables.sql",
+              "RelativeToolTip": "SQL\\01_tables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T04:24:54.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Forms\\Program.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\Program.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Forms\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T05:36:33.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataMapper.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Data\\DataMapper.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Data\\DataMapper.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Data\\DataMapper.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Data\\DataMapper.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T05:23:11.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\FormLogin.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Forms\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Forms\\FormLogin.cs [Design]",
+              "RelativeToolTip": "src\\DatabaseManager\\Forms\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T05:36:55.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OracleModels.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Models\\OracleModels.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Models\\OracleModels.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Models\\OracleModels.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Models\\OracleModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T05:40:01.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OracleConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Data\\OracleConnectionManager.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Data\\OracleConnectionManager.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Data\\OracleConnectionManager.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Data\\OracleConnectionManager.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAKkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T05:06:47.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ObjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Data\\ObjectRepository.cs",
+              "RelativeDocumentMoniker": "src\\DatabaseManager\\Data\\ObjectRepository.cs",
+              "ToolTip": "C:\\Users\\EzTiB\\source\\repos\\DatabaseManager\\src\\DatabaseManager\\Data\\ObjectRepository.cs",
+              "RelativeToolTip": "src\\DatabaseManager\\Data\\ObjectRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T05:00:40.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
