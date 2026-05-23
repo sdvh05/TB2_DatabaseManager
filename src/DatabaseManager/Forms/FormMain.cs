@@ -69,6 +69,24 @@ namespace DatabaseManager.Forms
             lblTree.TextAlign = ContentAlignment.MiddleCenter;
             lblTree.BackColor = Color.FromArgb(25, 25, 25);
 
+            Button btnNewTable = new Button();
+            btnNewTable.Text = "+ Nueva tabla";
+            btnNewTable.Font = new Font("Segoe UI", 8);
+            btnNewTable.BackColor = Color.FromArgb(255, 87, 34);
+            btnNewTable.ForeColor = Color.White;
+            btnNewTable.FlatStyle = FlatStyle.Flat;
+            btnNewTable.FlatAppearance.BorderSize = 0;
+            btnNewTable.Dock = DockStyle.Bottom;
+            btnNewTable.Height = 30;
+            btnNewTable.Cursor = Cursors.Hand;
+            btnNewTable.Click += (s, e) =>
+            {
+                FormCreateTable f = new FormCreateTable(_manager);
+                if (f.ShowDialog() == DialogResult.OK)
+                    LoadTree(); // refrescar el arbol
+            };
+            panelLeft.Controls.Add(btnNewTable);
+
             treeObjects              = new TreeView();
             treeObjects.Dock         = DockStyle.Fill;
             treeObjects.BackColor    = BG2;
