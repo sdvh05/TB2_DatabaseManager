@@ -87,7 +87,25 @@ namespace DatabaseManager.Forms
             };
             panelLeft.Controls.Add(btnNewTable);
 
-            treeObjects              = new TreeView();
+            Button btnNewView = new Button();
+            btnNewView.Text = "+ Nueva vista";
+            btnNewView.Font = new Font("Segoe UI", 8);
+            btnNewView.BackColor = Color.FromArgb(33, 150, 243);  
+            btnNewView.ForeColor = Color.White;
+            btnNewView.FlatStyle = FlatStyle.Flat;
+            btnNewView.FlatAppearance.BorderSize = 0;
+            btnNewView.Dock = DockStyle.Bottom;
+            btnNewView.Height = 30;
+            btnNewView.Cursor = Cursors.Hand;
+            btnNewView.Click += (s, e) =>
+            {
+                FormCreateView f = new FormCreateView(_manager);
+                if (f.ShowDialog() == DialogResult.OK)
+                    LoadTree();
+            };
+            panelLeft.Controls.Add(btnNewView);
+
+            treeObjects = new TreeView();
             treeObjects.Dock         = DockStyle.Fill;
             treeObjects.BackColor    = BG2;
             treeObjects.ForeColor    = TEXT;
