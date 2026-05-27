@@ -1,14 +1,14 @@
 -- ------------------------------------------------------------
--- ALL TRIGGERS SCHEEMA
+-- ALL TRIGGERS
 -- ------------------------------------------------------------
 SELECT
     t.trigger_name,
-    t.trigger_type,        -- 'BEFORE EACH ROW', 'AFTER STATEMENT', etc.
-    t.triggering_event,    -- 'INSERT', 'UPDATE', 'DELETE', combinaciones
+    t.trigger_type,        
+    t.triggering_event,   
     t.table_owner,
     t.table_name,
-    t.status,              -- ENABLED / DISABLED
-    t.action_type          -- 'PL/SQL' (siempre en Oracle XE)
+    t.status,              
+    t.action_type         
 FROM ALL_TRIGGERS t
 WHERE t.owner = UPPER(:owner)
 ORDER BY t.table_name, t.trigger_name;

@@ -4,9 +4,9 @@
 SELECT
     i.index_name,
     i.table_name,
-    i.index_type,          -- NORMAL, BITMAP, FUNCTION-BASED NORMAL, etc.
-    i.uniqueness,          -- UNIQUE / NONUNIQUE
-    i.status,              -- VALID / UNUSABLE
+    i.index_type,         
+    i.uniqueness,          
+    i.status,             
     i.partitioned,
     LISTAGG(ic.column_name, ', ')
         WITHIN GROUP (ORDER BY ic.column_position) AS columns

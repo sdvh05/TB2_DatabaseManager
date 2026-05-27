@@ -1,6 +1,4 @@
--- ------------------------------------------------------------
--- CONFIGURACION PREVIA (ejecutar una vez por sesion)
--- Mejora el formato del DDL generado
+
 -- ------------------------------------------------------------
 BEGIN
     DBMS_METADATA.SET_TRANSFORM_PARAM(
@@ -16,7 +14,7 @@ END;
 
 
 -- ------------------------------------------------------------
--- 1. DDL GENERICO PARA CUALQUIER OBJETO
+-- 1. DDL PARA CUALQUIER OBJETO
 -- ------------------------------------------------------------
 SELECT DBMS_METADATA.GET_DDL(
     UPPER(:object_type),
@@ -69,7 +67,7 @@ ORDER BY o.object_name;
 
 
 -- ------------------------------------------------------------
--- 4. DDL DE UNA VISTA (alternativa manual sin DBMS_METADATA)
+-- 4. DDL DE UNA VISTA 
 -- ------------------------------------------------------------
 SELECT
     'CREATE OR REPLACE VIEW '
@@ -83,7 +81,7 @@ WHERE v.owner     = UPPER(:owner)
 
 
 -- ------------------------------------------------------------
--- 5. DDL DE UNA SECUENCIA (construccion manual)
+-- 5. DDL DE UNA SECUENCIA 
 -- ------------------------------------------------------------
 SELECT
     'CREATE SEQUENCE '

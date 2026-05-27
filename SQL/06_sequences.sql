@@ -6,10 +6,10 @@ SELECT
     s.min_value,
     s.max_value,
     s.increment_by,
-    s.cycle_flag,          -- Y = cicla cuando llega al maximo
+    s.cycle_flag,         
     s.order_flag,
-    s.cache_size,          -- cuantos valores pre-genera Oracle
-    s.last_number          -- proximo valor que se generara
+    s.cache_size,          
+    s.last_number          
 FROM ALL_SEQUENCES s
 WHERE s.sequence_owner = UPPER(:owner)
 ORDER BY s.sequence_name;

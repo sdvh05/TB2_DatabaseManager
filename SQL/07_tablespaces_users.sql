@@ -1,17 +1,13 @@
--- ============================================================
--- SECCION A: TABLESPACES
--- ============================================================
-
 -- ------------------------------------------------------------
 --  LISTAR TODOS LOS TABLESPACES
 -- ------------------------------------------------------------
 SELECT
     ts.tablespace_name,
-    ts.status,             -- ONLINE / OFFLINE / READ ONLY
-    ts.contents,           -- PERMANENT / TEMPORARY / UNDO
+    ts.status,             
+    ts.contents,           
     ts.logging,
     ts.block_size,
-    ts.extent_management,  -- LOCAL / DICTIONARY
+    ts.extent_management,  
     ts.segment_space_management
 FROM DBA_TABLESPACES ts
 ORDER BY ts.contents, ts.tablespace_name;
@@ -24,13 +20,12 @@ SELECT
     ts.tablespace_name,
     ts.status,
     ts.contents,
-    NVL(df.total_mb, 0)                                      AS total_mb,
-    NVL(fs.free_mb,  0)                                      AS free_mb,
-    NVL(df.total_mb, 0) - NVL(fs.free_mb, 0)                AS used_mb,
+    NVL(df.total_mb, 0) AS total_mb,
+    NVL(fs.free_mb,  0)  AS free_mb,
+    NVL(df.total_mb, 0) - NVL(fs.free_mb, 0) AS used_mb,
     ROUND(
         (NVL(df.total_mb, 0) - NVL(fs.free_mb, 0))
-        / NULLIF(NVL(df.total_mb, 0), 0) * 100
-    , 2)                                                     AS used_pct
+        / NULLIF(NVL(df.total_mb, 0), 0) * 100, 2)  AS used_pct
 FROM DBA_TABLESPACES ts
 LEFT JOIN (
     SELECT tablespace_name,
@@ -47,16 +42,16 @@ LEFT JOIN (
 ORDER BY ts.tablespace_name;
 
 
--- ============================================================
--- SECCION B: USUARIOS
--- ============================================================
+
+-- USUARIOS
+
 
 -- ------------------------------------------------------------
--- 3. LISTAR TODOS LOS USUARIOS DE LA BASE DE DATOS
+-- 3. ALL USERS
 -- ------------------------------------------------------------
 SELECT
     u.username,
-    u.account_status,      -- OPEN / LOCKED / EXPIRED / etc.
+    u.account_status,     
     u.created,
     u.default_tablespace,
     u.temporary_tablespace,
@@ -67,7 +62,7 @@ ORDER BY u.username;
 
 
 -- ------------------------------------------------------------
--- ROLES Y PRIVILEGIOS DE UN USUARIO
+-- ROLES Y PRIVILEGIOS
 -- ------------------------------------------------------------
 SELECT
     rp.granted_role,

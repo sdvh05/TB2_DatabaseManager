@@ -4,7 +4,7 @@
 SELECT
     o.object_name,
     o.object_type,
-    o.status,           -- VALID / INVALID
+    o.status,          
     o.last_ddl_time,
     o.created
 FROM ALL_OBJECTS o
@@ -34,13 +34,13 @@ SELECT
     a.position,
     a.sequence,
     a.data_type,
-    a.in_out,           -- IN / OUT / IN/OUT
+    a.in_out,          
     a.defaulted,
     a.default_value
 FROM ALL_ARGUMENTS a
 WHERE a.owner       = UPPER(:owner)
   AND a.object_name = UPPER(:object_name)
-  AND a.package_name IS NULL     -- solo procedimientos/funciones sueltos
+  AND a.package_name IS NULL    
 ORDER BY a.sequence;
 
 
@@ -67,7 +67,7 @@ SELECT
     e.line,
     e.position,
     e.text AS error_message,
-    e.attribute        -- 'ERROR' o 'WARNING'
+    e.attribute        
 FROM ALL_ERRORS e
 WHERE e.owner = UPPER(:owner)
   AND e.name  = UPPER(:object_name)
