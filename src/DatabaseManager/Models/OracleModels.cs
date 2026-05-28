@@ -4,16 +4,14 @@ namespace DatabaseManager.Models
 {
     // ============================================================
     // OracleConnection Info
-    // Representa una conexion guardada por el usuario
     // ============================================================
     public class ConnectionInfo
     {
-        public string Name           { get; set; }   // nombre amigable ej: "Local XE"
-        public string Host           { get; set; }   // ej: "localhost"
-        public int    Port           { get; set; }   // ej: 1521
-        public string ServiceName    { get; set; }   // ej: "XE"
-        public string Username       { get; set; }   // ej: "HR"
-        // Nota: la password NO se guarda en el modelo por seguridad
+        public string Name           { get; set; }   
+        public string Host           { get; set; }   
+        public int    Port           { get; set; }   
+        public string ServiceName    { get; set; }   
+        public string Username       { get; set; }   
 
         public override string ToString()
         {
@@ -23,7 +21,6 @@ namespace DatabaseManager.Models
 
     // ============================================================
     // TABLA
-    // Representa una fila de ALL_TABLES
     // ============================================================
     public class TableInfo
     {
@@ -41,7 +38,6 @@ namespace DatabaseManager.Models
 
     // ============================================================
     // COLUMNA DE TABLA
-    // Representa una fila de ALL_TAB_COLUMNS
     // ============================================================
     public class ColumnInfo
     {
@@ -51,7 +47,7 @@ namespace DatabaseManager.Models
         public int     DataLength     { get; set; }
         public int?    DataPrecision  { get; set; }
         public int?    DataScale      { get; set; }
-        public bool    IsNullable     { get; set; }   // 'Y' -> true
+        public bool    IsNullable     { get; set; }   
         public string  DataDefault    { get; set; }
 
         // Muestra el tipo completo ej: "VARCHAR2(100)", "NUMBER(10,2)"
@@ -76,8 +72,7 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // CONSTRAINT
-    // Representa una fila de ALL_CONSTRAINTS + ALL_CONS_COLUMNS
+    // ALL_CONSTRAINTS + ALL_CONS_COLUMNS
     // ============================================================
     public class ConstraintInfo
     {
@@ -88,7 +83,6 @@ namespace DatabaseManager.Models
         public string RConstraintName   { get; set; }  // FK referencia
         public string Status            { get; set; }
 
-        // Tipo legible ej: "Primary Key", "Foreign Key"
         public string TypeDescription
         {
             get
@@ -106,8 +100,7 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // VISTA
-    // Representa una fila de ALL_VIEWS
+    // ALL_VIEWS
     // ============================================================
     public class ViewInfo
     {
@@ -122,14 +115,13 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // OBJETO PL/SQL (Procedimiento, Funcion, Paquete)
-    // Representa una fila de ALL_OBJECTS
+    // OBJETO PL/SQL (Procedimiento, Funcion, 
     // ============================================================
     public class ProgrammingObjectInfo
     {
         public string   ObjectName  { get; set; }
         public string   ObjectType  { get; set; }  // PROCEDURE, FUNCTION, PACKAGE, PACKAGE BODY
-        public string   Status      { get; set; }  // VALID / INVALID
+        public string   Status      { get; set; }  
         public DateTime? LastDdlTime { get; set; }
         public DateTime? Created     { get; set; }
 
@@ -145,16 +137,15 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // TRIGGER
-    // Representa una fila de ALL_TRIGGERS
+    // ALL_TRIGGERS
     // ============================================================
     public class TriggerInfo
     {
         public string TriggerName      { get; set; }
-        public string TriggerType      { get; set; }   // BEFORE/AFTER EACH ROW, etc.
+        public string TriggerType      { get; set; }   // BEFORE/AFTER 
         public string TriggeringEvent  { get; set; }   // INSERT, UPDATE, DELETE
         public string TableName        { get; set; }
-        public string Status           { get; set; }   // ENABLED / DISABLED
+        public string Status           { get; set; }  
         public string WhenClause       { get; set; }
         public string TriggerBody      { get; set; }
 
@@ -170,17 +161,16 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // INDICE
-    // Representa una fila de ALL_INDEXES
+    // ALL_INDEXES
     // ============================================================
     public class IndexInfo
     {
         public string IndexName  { get; set; }
         public string TableName  { get; set; }
-        public string IndexType  { get; set; }   // NORMAL, BITMAP, etc.
-        public string Uniqueness { get; set; }   // UNIQUE / NONUNIQUE
-        public string Status     { get; set; }   // VALID / UNUSABLE
-        public string Columns    { get; set; }   // columnas separadas por coma
+        public string IndexType  { get; set; }   
+        public string Uniqueness { get; set; }   
+        public string Status     { get; set; }   
+        public string Columns    { get; set; }   
 
         public bool IsUnique
         {
@@ -194,8 +184,7 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // SECUENCIA
-    // Representa una fila de ALL_SEQUENCES
+    // ALL_SEQUENCES
     // ============================================================
     public class SequenceInfo
     {
@@ -203,7 +192,7 @@ namespace DatabaseManager.Models
         public long   MinValue     { get; set; }
         public long   MaxValue     { get; set; }
         public long   IncrementBy  { get; set; }
-        public bool   IsCyclic     { get; set; }  // 'Y' -> true
+        public bool   IsCyclic     { get; set; }  
         public long   CacheSize    { get; set; }
         public long   LastNumber   { get; set; }
 
@@ -214,14 +203,13 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // TABLESPACE
-    // Representa una fila de DBA_TABLESPACES con espacio
+    // DBA_TABLESPACES 
     // ============================================================
     public class TablespaceInfo
     {
         public string  TablespaceName { get; set; }
-        public string  Status         { get; set; }   // ONLINE / OFFLINE
-        public string  Contents       { get; set; }   // PERMANENT / TEMPORARY / UNDO
+        public string  Status         { get; set; }   
+        public string  Contents       { get; set; }   
         public int     BlockSize      { get; set; }
         public decimal TotalMb        { get; set; }
         public decimal FreeMb         { get; set; }
@@ -243,13 +231,12 @@ namespace DatabaseManager.Models
     }
 
     // ============================================================
-    // USUARIO
-    // Representa una fila de DBA_USERS
+    // DBA_USERS
     // ============================================================
     public class UserInfo
     {
         public string   Username            { get; set; }
-        public string   AccountStatus       { get; set; }  // OPEN / LOCKED / EXPIRED
+        public string   AccountStatus       { get; set; }  
         public DateTime? Created            { get; set; }
         public string   DefaultTablespace   { get; set; }
         public string   TemporaryTablespace { get; set; }
