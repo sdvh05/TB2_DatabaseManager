@@ -5,12 +5,7 @@ using System.Data;
 
 namespace DatabaseManager.Data
 {
-    // --------------------------------------------------------
-    // DataMapper
-    // Responsabilidad: convertir DataTable (resultado crudo
-    // de Oracle) en listas de Models tipados.
-    // Centraliza toda la logica de mapeo en un solo lugar.
-    // --------------------------------------------------------
+
     public static class DataMapper
     {
         // ====================================================

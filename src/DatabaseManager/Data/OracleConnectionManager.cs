@@ -5,28 +5,15 @@ using System.Data;
 
 namespace DatabaseManager.Data
 {
-    // --------------------------------------------------------
-    // OracleConnectionManager
-    // Responsabilidad: abrir, cerrar y almacenar conexiones
-    // a instancias de Oracle XE.
-    // NO usa ORM ni information_schema.
-    // --------------------------------------------------------
     public class OracleConnectionManager
     {
-        // ----------------------------------------------------
-        // Conexion activa en este momento
-        // ----------------------------------------------------
+
         private OracleConnection _connection;
 
-        // ----------------------------------------------------
-        // Lista de conexiones guardadas (nombre -> cadena)
-        // ----------------------------------------------------
+
         private Dictionary<string, string> _savedConnections
             = new Dictionary<string, string>();
 
-        // ----------------------------------------------------
-        // Datos de la conexion activa (para mostrar en la UI)
-        // ----------------------------------------------------
         public string CurrentUser       { get; private set; }
         public string CurrentDataSource { get; private set; }
 
@@ -41,12 +28,6 @@ namespace DatabaseManager.Data
 
         // ====================================================
         // CONECTAR
-        // Parametros:
-        //   host        ej: "localhost"
-        //   port        ej: 1521
-        //   serviceName ej: "XE"
-        //   user        ej: "HR"
-        //   password    ej: "hr_password"
         // ====================================================
         public void Connect(string host, int port, string serviceName,
                             string user, string password)
@@ -85,7 +66,6 @@ namespace DatabaseManager.Data
 
         // ====================================================
         // OBTENER LA CONEXION ACTIVA
-        // Otras clases la piden para ejecutar queries
         // ====================================================
         public OracleConnection GetConnection()
         {
@@ -146,7 +126,6 @@ namespace DatabaseManager.Data
 
         // ====================================================
         // EJECUTAR UN SELECT Y RETORNAR UN DataTable
-        // Uso: var dt = manager.ExecuteQuery("SELECT...", params)
         // ====================================================
         public DataTable ExecuteQuery(string sql,
                           Dictionary<string, object> parameters = null)
@@ -171,8 +150,7 @@ namespace DatabaseManager.Data
         }
 
         // ====================================================
-        // EJECUTAR UN SCRIPT DDL/DML (sin retorno de filas)
-        // Uso: manager.ExecuteNonQuery("CREATE TABLE ...")
+        // EJECUTAR UN SCRIPT DDL/DML 
         // ====================================================
         public int ExecuteNonQuery(string sql,
                        Dictionary<string, object> parameters = null)

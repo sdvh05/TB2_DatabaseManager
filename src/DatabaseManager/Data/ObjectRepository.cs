@@ -6,11 +6,7 @@ using System.Text;
 
 namespace DatabaseManager.Data
 {
-    // --------------------------------------------------------
-    // ObjectRepository
-    // Responsabilidad: consultar las system tables de Oracle
-    // para obtener metadata de todos los objetos de la BD.
-    // --------------------------------------------------------
+
     public class ObjectRepository
     {
         private readonly OracleConnectionManager _manager;

@@ -10,7 +10,7 @@ namespace DatabaseManager.Data
     // ConnectionStorage
     // Guarda y carga conexiones desde un archivo JSON simple
     // ubicado en la misma carpeta del ejecutable.
-    // NO guarda passwords por seguridad.
+    // NO guarda passwords 
     // --------------------------------------------------------
     public static class ConnectionStorage
     {
@@ -67,7 +67,7 @@ namespace DatabaseManager.Data
         }
 
         // ====================================================
-        // Parser JSON minimalista (sin dependencias externas)
+        // Parser JSON 
         // Solo soporta el formato exacto que Save() genera
         // ====================================================
         private static List<ConnectionInfo> ParseJson(string json)
@@ -136,7 +136,7 @@ namespace DatabaseManager.Data
             }
         }
 
-        // Escapa comillas dobles en strings para el JSON
+
         private static string Escape(string s)
         {
             return s == null ? "" : s.Replace("\\", "\\\\").Replace("\"", "\\\"");
